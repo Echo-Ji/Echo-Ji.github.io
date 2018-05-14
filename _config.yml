@@ -1,18 +1,18 @@
 # Site settings
 title: Echo Blog
 SEOTitle: Echo的博客 | Echo Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-home.jpg
 email: bh1506jjh@gmail.com
 description: "Words and ideas can change the world"
 keyword: "Echo, Echo Blog, Echo的博客"
 url: "http://Echo-Ji.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Echo-Ji/Echo-Ji.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Do not go where the path may lead; go instead where there is no path and leave a trail."
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-Echo-home.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
