@@ -52,7 +52,8 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
+# math
+mathjax: true
 
 
 # 评论系统
@@ -91,7 +92,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
+chrome-tab-theme-color: "#EE82EE"
 service-worker: true
 
 
