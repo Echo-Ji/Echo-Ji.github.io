@@ -4,7 +4,7 @@ title:		Win10下Kinect v2连接Processing
 subtitle:	用Processing连接Kinect进行交互展示
 date:		2019-07-06
 author: 	Echo
-header-img: 	img/2019-07-06/Kinect.jpg
+header-img: 	img/2019-07-06/Kinect.png
 catalog:	true
 tags: 
     - Kinect
@@ -61,4 +61,4 @@ tags:
 
 虽然 Github 的 releases 里停更了，但是我们依旧可以通过第一种方式获取到最新版本的库。
 
-到这里，环境就算搭建好了。可以通过`文件->返利程序->Contributed Librsries`找到示例程序，运行并查看效果:rocket:。
+到这里，环境就算搭建好了。可以通过`文件->返利程序->Contributed Librsries`找到示例程序，运行并查看效果​。​Enjoy​~:rocket:
