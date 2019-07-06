@@ -1,17 +1,19 @@
 ---
-layout:		post
-title:		Win10下Kinect v2连接Processing
-subtitle:	用Processing连接Kinect进行交互展示
-date:		2019-07-06
-author: 	Echo
-header-img: 	img/2019-07-06/Kinect.png
-catalog:	true
+layout:	   post
+title:	    Win10下Kinect v2连接Processing
+subtitle:   用Processing连接Kinect进行交互展示
+date:	    2019-07-06
+author:	    Echo
+header-img: img/2019-07-06/Kinect.png
+catalog: true
 tags: 
     - Kinect
     - Processing
 ---
 
 > 最近在使用 Kinect 完成一个艺术装置。首先需要用 Kinect 捕捉头部的运动数据，继而用 Processing 处理数据，然后将处理好的数据发送给控制端进行装置的控制。
+
+
 
 ## 0 写在前面
 
@@ -20,6 +22,8 @@ tags:
 做交互装置的同学有时会用到 Processing，因为他可以很方便地和 [Arduino](<https://www.bilibili.com/video/av11662037/>) 进行通信，从而控制硬件，比如舵机。
 
 所以接下来简单描述一下如何在 Win10 上搭建 Processing 3.5.3 开发 Kinect v2的环境。
+
+
 
 ## 1 软硬件需求
 
@@ -38,6 +42,8 @@ tags:
 * [Processing 3.x](<https://processing.org/download/>)：这里使用最新版本 3.5.3，有了它就可以接受并处理 Kinect 传来的数据了
 * 更新显卡驱动：[检查显卡驱动](<https://jingyan.baidu.com/article/2c8c281da97bab0008252af3.html>)，如果已经是最新的就 OK，否则需要更新
 * [检查 Direct X 版本](<https://support.microsoft.com/zh-hk/help/15061/windows-which-version-directx>)：只有较新的 Direct X 套件才能支持一些 3D 的显示
+
+
 
 ## 2 开始搭建
 
@@ -62,3 +68,4 @@ tags:
 虽然 Github 的 releases 里停更了，但是我们依旧可以通过第一种方式获取到最新版本的库。
 
 到这里，环境就算搭建好了。可以通过`文件->返利程序->Contributed Librsries`找到示例程序，运行并查看效果​。​Enjoy​~:rocket:
+
