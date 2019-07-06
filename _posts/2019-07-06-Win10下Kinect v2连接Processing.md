@@ -17,7 +17,7 @@ tags:
 
 做交互装置的同学有时会用到 Kinect，目前的版本应该是 v2，由于是微软出品，所以建议在 Windows 系统上进行部署，以免出现水土不服的状况。来自一个折腾了两天Mac都没搞定的程序员的忠告 : ）
 
-做交互装置的同学有时会用到 Processing，因为他可以很方便地和 [Arduino](<https://www.bilibili.com/video/av11662037/>?_blank) 进行通信，从而控制硬件，比如舵机。
+做交互装置的同学有时会用到 Processing，因为他可以很方便地和 [Arduino](<https://www.bilibili.com/video/av11662037/>) 进行通信，从而控制硬件，比如舵机。
 
 所以接下来简单描述一下如何在 Win10 上搭建 Processing 3.5.3 开发 Kinect v2的环境。
 
