@@ -17,7 +17,7 @@ tags:
 
 做交互装置的同学有时会用到 Kinect，目前的版本应该是 v2，由于是微软出品，所以建议在 Windows 系统上进行部署，以免出现水土不服的状况。来自一个折腾了两天Mac都没搞定的程序员的忠告 : ）
 
-做交互装置的同学有时会用到 Processing，因为他可以很方便地和 [Arduino](<https://www.bilibili.com/video/av11662037/>) 进行通信，从而控制硬件，比如舵机。
+做交互装置的同学有时会用到 Processing，因为他可以很方便地和 [Arduino](<https://www.bilibili.com/video/av11662037/>?_blank) 进行通信，从而控制硬件，比如舵机。
 
 所以接下来简单描述一下如何在 Win10 上搭建 Processing 3.5.3 开发 Kinect v2的环境。
 
@@ -25,14 +25,14 @@ tags:
 
 ### 1.1 硬件
 
-* 一台 Kinect V2 ：相信点开这个博客的时候你已经有一台Kinect了，否则前方右转出门
+* 一台 Kinect V2 ：相信点开这个博客的时候你已经有一台Kinect了，否则前方右转出门不送
 * 带 USB 3.0 接口的 64 位电脑：划重点划重点 **64 位**和 USB **3.0**（就是你电脑上蓝色的 USB 接口），这一切都是为了满足Kinect V2的高速高清图像传输
 
 ### 1.2 软件
 
 在满足了硬件需求之后，就可以开始了解软件环境了。
 
-* Win8 以上的系统：这里使用 win10，其实 Win8， Win8.1的也可以
+* Win8 以上的系统：这里使用 Win10，其实 Win8， Win8.1的也可以
 
 * [Kinect SDK v2](<https://developer.microsoft.com/en-us/windows/kinect>)：这个是 Kinect v2 在 windows 系统的开发库，必需品
 * [Processing 3.x](<https://processing.org/download/>)：这里使用最新版本 3.5.3，有了它就可以接受并处理 Kinect 传来的数据了
