@@ -5,7 +5,7 @@ subtitle:   用Processing连接Kinect进行交互展示
 date:	    2019-07-06
 author:	    Echo
 header-img: img/2019-07-06/Kinect.png
-catalog: true
+catalog: false
 tags: 
     - Kinect
     - Processing
@@ -17,11 +17,11 @@ tags:
 
 ## 0 写在前面
 
-做交互装置的同学有时会用到 Kinect，目前的版本应该是 v2，由于是微软出品，所以建议在 Windows 系统上进行部署，以免出现水土不服的状况。来自一个折腾了两天Mac都没搞定的程序员的忠告 : ）
+做交互装置的同学有时会用到 Kinect，目前的版本应该是 v2，由于是微软出品，所以建议在 Windows 系统上进行部署，以免出现水土不服的状况。来自一个折腾了两天 Mac 都没搞定的程序员的忠告 : ）
 
 做交互装置的同学有时会用到 Processing，因为他可以很方便地和 [Arduino](<https://www.bilibili.com/video/av11662037/>) 进行通信，从而控制硬件，比如舵机。
 
-所以接下来简单描述一下如何在 Win10 上搭建 Processing 3.5.3 开发 Kinect v2的环境。
+所以接下来简单描述一下如何在 Win10 上搭建 Processing 3.5.3 开发 Kinect v2 的环境。
 
 
 
@@ -29,8 +29,8 @@ tags:
 
 ### 1.1 硬件
 
-* 一台 Kinect V2 ：相信点开这个博客的时候你已经有一台Kinect了，否则前方右转出门不送
-* 带 USB 3.0 接口的 64 位电脑：划重点划重点 **64 位**和 USB **3.0**（就是你电脑上蓝色的 USB 接口），这一切都是为了满足Kinect V2的高速高清图像传输
+* 一台 Kinect V2 ：相信点开这个博客的时候你已经有一台 Kinect 了，否则前方右转出门不送
+* 带 USB 3.0 接口的 64 位电脑：划重点划重点 **64 位**和 USB **3.0**（就是你电脑上蓝色的 USB 接口），这一切都是为了满足 Kinect V2 的高速高清图像传输
 
 ### 1.2 软件
 
@@ -38,7 +38,7 @@ tags:
 
 * Win8 以上的系统：这里使用 Win10，其实 Win8， Win8.1的也可以
 
-* [Kinect SDK v2](<https://developer.microsoft.com/en-us/windows/kinect>)：这个是 Kinect v2 在 windows 系统的开发库，必需品
+* [Kinect SDK v2](<https://developer.microsoft.com/en-us/windows/kinect>)：这个是 Kinect v2 在 Windows 系统的开发库，必需品 
 * [Processing 3.x](<https://processing.org/download/>)：这里使用最新版本 3.5.3，有了它就可以接受并处理 Kinect 传来的数据了
 * 更新显卡驱动：[检查显卡驱动](<https://jingyan.baidu.com/article/2c8c281da97bab0008252af3.html>)，如果已经是最新的就 OK，否则需要更新
 * [检查 Direct X 版本](<https://support.microsoft.com/zh-hk/help/15061/windows-which-version-directx>)：只有较新的 Direct X 套件才能支持一些 3D 的显示
@@ -65,7 +65,7 @@ tags:
 
 
 
-虽然 Github 的 releases 里停更了，但是我们依旧可以通过第一种方式获取到最新版本的库。
+虽然 Github 的 releases 里停更了，但是我们依旧可以通过第一种方式：**自动安装**，获取到最新版本的库。
 
 到这里，环境就算搭建好了。可以通过`文件->返利程序->Contributed Librsries`找到示例程序，运行并查看效果​。​Enjoy​~:rocket:
 
